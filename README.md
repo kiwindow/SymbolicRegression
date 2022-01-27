@@ -54,6 +54,6 @@ This procedure allows the user to read in dataset file located on the desktop in
 
 BuildModel[]
 
-## 3. ReadMeFist file
+## 3. ReadMeFirst file
 
 More detailed usage procedures are written in the ReadMeFirst notebook in this repository.

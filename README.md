@@ -44,6 +44,8 @@ DataModeler must be imported first, and BuildModel function should be defined th
 
 Import["https://raw.githubusercontent.com/kiwindow/SymbolicRegression/main/BuildModel.m"]
 
+The BuildModel[] function uses a function called SymbolicRegression provided by DataModeler.
+
 4. Include the desktop directory into the default pass in Wolfram Language (Mathematica)
 
 $Path = Join[{ ToFileName[{$HomeDirectory, "desktop"}]}, $Path];

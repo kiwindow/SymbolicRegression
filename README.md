@@ -8,7 +8,7 @@ DataModeler runs on Wolfarm Language. Although it also has a stand alone mode, t
 
 ## 1. Contents
 
-There are two program files written in Wolfam Language here.
+There are two program files written in Wolfam Language in this repository.
 
 1. init.m : This file provides user-defined functions.
 2. BuildModel.m : This file provides a BuildModel function to perform Symbolic Regression via Genetic Programming.

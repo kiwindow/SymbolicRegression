@@ -59,3 +59,15 @@ BuildModel[]
 ## 3. ReadMeFirst file
 
 More detailed usage procedures are written in the ReadMeFirst notebook in this repository.
+
+## 4. A sample result of the Symbolic Regression validated with leace-one-out crossvalidation method 
+
+A sample file of calculation results using newMaxGD2 on a notebook of Wolfarm Language is available from the following link.
+
+https://www.dropbox.com/s/6u5d6nk0zq9j173/20201208%20LOO%20newMaxGD2%2030sec%20if%200.80%204seeds%20Normalized1%20A.nb?dl=0
+
+This file can be opened with Wolfram Player, which is a free soft that can be obtained from the following site.
+
+https://www.wolfram.com/player/
+
+

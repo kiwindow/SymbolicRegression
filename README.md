@@ -52,7 +52,7 @@ $Path = Join[{ ToFileName[{$HomeDirectory, "desktop"}]}, $Path];
 
 This procedure allows the user to read in dataset file located on the desktop into Mathematica.
 
-5. Execute the BuildModel[] function and follow the instructions in the API windows that appear one after anther.
+5. Execute the BuildModel[] function and follow the instructions in the API windows that appear one after another.
 
 BuildModel[]
 

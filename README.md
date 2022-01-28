@@ -19,7 +19,7 @@ There are also two dataset files for Machine Learning.
 1. newMaxGD2.xlsx
 2. newMaxGD2.csv
    
-The contents of them are identical with each other. The last column is the dichotomous target variable. The rest columns are explanaatory variables.
+The contents of them are identical with each other. The last column is the dichotomous target variable. The rest columns are explanatory variables.
 
 ## 2. Quick Start
 

@@ -1,0 +1,137 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      4780,        129]
+NotebookOptionsPosition[      3701,        103]
+NotebookOutlinePosition[      4108,        120]
+CellTagsIndexPosition[      4065,        117]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["The commands in Mathematica for performing SR via GP.", "Subsection",
+ CellChangeTimes->{{3.852598707503345*^9, 
+  3.852598755074319*^9}},ExpressionUUID->"9033473c-025d-425e-b598-\
+e22bf70700bc"],
+
+Cell["\<\
+#1 DataModeler\[RegisteredTrademark] PRO or EDU is needed from the Evolved \
+Analytics (https://evolved-analytics.com/try-now/),
+      and it should be installed on your Mathematica\[RegisteredTrademark] or \
+Wolfram|One\[RegisteredTrademark].
+#2 Save the present QuickStart file and a dataset for dichotomous \
+classification on your desktop.
+#3 Then execute the following commands in turn. 
+      The BuildModel function will show API windows one after another. Follow \
+instructions written on them.\
+\>", "Text",
+ CellChangeTimes->{{3.852596688174453*^9, 3.852596763993857*^9}, 
+   3.852596802599461*^9, {3.852596986929702*^9, 3.852597086299815*^9}, {
+   3.852597133838571*^9, 3.852597221973878*^9}, {3.85259730514471*^9, 
+   3.852597331179573*^9}, {3.8525973674055862`*^9, 3.852597434666191*^9}, {
+   3.852597572495113*^9, 3.852597593739677*^9}, {3.8525977273814774`*^9, 
+   3.852597732054751*^9}, {3.852597777155954*^9, 3.8525977932284737`*^9}, {
+   3.852597833002407*^9, 3.852597934806449*^9}, {3.8525980150859423`*^9, 
+   3.852598018758687*^9}, {3.8525982422085543`*^9, 3.852598246853874*^9}, {
+   3.852598306577793*^9, 3.8525984671321*^9}, {3.852598785105534*^9, 
+   3.852598798339572*^9}},ExpressionUUID->"948f6558-2ed5-4cf7-90d4-\
+dc364d3e5978"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Import libraries for SR via GP and Execute BuildModel function\
+\>", "Subsubsection",
+ CellChangeTimes->{{3.8525988570107813`*^9, 
+  3.8525989172619867`*^9}},ExpressionUUID->"651f500a-7c92-4373-a921-\
+d8985666a8af"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  "\"\<https://raw.githubusercontent.com/kiwindow/SymbolicRegression/main/\
+init.m\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8525899993685217`*^9, 
+  3.85258999937684*^9}},ExpressionUUID->"9ef57120-3548-46b1-8e17-\
+19390c532f9b"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<DataModeler`\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.852590008588087*^9, 
+  3.852590008593285*^9}},ExpressionUUID->"9294c7c9-ade9-4ed9-9535-\
+6599af27a590"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  "\"\<https://raw.githubusercontent.com/kiwindow/SymbolicRegression/main/\
+BuildModel.m\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8525900163116693`*^9, 
+  3.8525900163160973`*^9}},ExpressionUUID->"5a8f8518-4fbb-451b-acd5-\
+6470770f7850"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"$Path", "=", 
+   RowBox[{"Join", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"ToFileName", "[", 
+       RowBox[{"{", 
+        RowBox[{"$HomeDirectory", ",", "\"\<desktop\>\""}], "}"}], "]"}], 
+      "}"}], ",", "$Path"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.8525900235947027`*^9, 
+  3.85259002359901*^9}},ExpressionUUID->"b5841912-4013-498a-8655-\
+60477023107a"],
+
+Cell[BoxData[
+ RowBox[{"BuildModel", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.852590031893457*^9, 
+  3.852590031898177*^9}},ExpressionUUID->"00de144c-dff9-465c-b516-\
+a014f1188bb6"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{Automatic, 75}, {Automatic, 20}},
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) \
+(2021\:5e7412\:67086\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"0d4aaf29-33d9-47ae-b7af-0b2ab9f452ff"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 201, 3, 54, "Subsection",ExpressionUUID->"9033473c-025d-425e-b598-e22bf70700bc"],
+Cell[787, 27, 1266, 21, 127, "Text",ExpressionUUID->"948f6558-2ed5-4cf7-90d4-dc364d3e5978"],
+Cell[CellGroupData[{
+Cell[2078, 52, 225, 5, 45, "Subsubsection",ExpressionUUID->"651f500a-7c92-4373-a921-d8985666a8af"],
+Cell[2306, 59, 271, 6, 30, "Input",ExpressionUUID->"9ef57120-3548-46b1-8e17-19390c532f9b"],
+Cell[2580, 67, 203, 4, 30, "Input",ExpressionUUID->"9294c7c9-ade9-4ed9-9535-6599af27a590"],
+Cell[2786, 73, 280, 6, 52, "Input",ExpressionUUID->"5a8f8518-4fbb-451b-acd5-6470770f7850"],
+Cell[3069, 81, 417, 12, 30, "Input",ExpressionUUID->"b5841912-4013-498a-8655-60477023107a"],
+Cell[3489, 95, 184, 4, 30, "Input",ExpressionUUID->"00de144c-dff9-465c-b516-a014f1188bb6"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

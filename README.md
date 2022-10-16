@@ -1,4 +1,4 @@
-# SymbolicRegression
+# Symbolic Regression via Genetic Programming
 
 This repository supplies codes to perform Symbolic Regression via Genetic Programming using Wolfram Language (or Mathematica) and DataModeler.
 Wolfram Language is provided by Wolfram Research Inc. https://www.wolfram.com

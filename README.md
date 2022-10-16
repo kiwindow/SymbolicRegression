@@ -21,6 +21,14 @@ There are also two dataset files for Machine Learning.
    
 The contents of them are identical with each other. The last column is the dichotomous target variable. The rest columns are explanatory variables.
 
+There are also two other program files written in Python.
+
+1. MLwithLOO_CV.ipynb
+2. FeatureImportanceScores.ipynb
+
+The MLwithLOO_CV.ipynb contain codes to perform leave-one-out cross validation on dichotomous classification problem with python. It is coded for use on Google Colaboratory.
+The FeatureImportanceScoers.ipynb is also for use on Colaboratory to calculate feature importance values with several statistical and machine learning methods.
+
 ## 2. Quick Start
 
 Execute the following commands on the notebook of Wolfram Language.

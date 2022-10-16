@@ -68,7 +68,7 @@ BuildModel[]
 
 More detailed usage procedures are written in the ReadMeFirst notebook in this repository.
 
-## 4. A sample result of the Symbolic Regression validated with leace-one-out crossvalidation method 
+## 4. A sample result of the Symbolic Regression validated with leave-one-out crossvalidation method 
 
 A sample file of calculation results using newMaxGD2 on a notebook of Wolfarm Language is available from the following link.
 

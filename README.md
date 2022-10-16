@@ -70,11 +70,11 @@ More detailed usage procedures are written in the ReadMeFirst notebook in this r
 
 ## 4. A sample result of the Symbolic Regression validated with leave-one-out crossvalidation method 
 
-A sample file of calculation results using newMaxGD2 on a notebook of Wolfarm Language is available from the following link.
+A sample file of Wolfram Language notebook calculated with newMaxGD2 using BuildModel and DataModeler is available from the following link.
 
 https://www.dropbox.com/s/6u5d6nk0zq9j173/20201208%20LOO%20newMaxGD2%2030sec%20if%200.80%204seeds%20Normalized1%20A.nb?dl=0
 
-This file can be opened with Wolfram Player, which is a free soft that can be obtained from the following site.
+This file can be opened with Wolfram Player, which is a free software that can be obtained from the following site.
 
 https://www.wolfram.com/player/
 
